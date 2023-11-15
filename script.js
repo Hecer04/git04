@@ -1,17 +1,99 @@
-let string=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, ipsam fuga quas ipsa minima esse nam quisquam. Asperiores eius omnis maiores voluptates, nam adipisci illo, perspiciatis ipsa commodi beatae incidunt?
-Voluptatum sed vel aliquam modi mollitia obcaecati fugit, ea ab corporis iure numquam reprehenderit nam iste blanditiis porro deleniti reiciendis, neque praesentium. Eum molestiae laborum tenetur, veritatis dolorum fuga vel.
-Doloremque ratione, harum exercitationem neque quas velit vitae perspiciatis omnis! Eveniet quasi vel eos minus, velit dolorum nam facilis deleniti ad quisquam. Nisi obcaecati optio expedita dignissimos, facere ab nulla.
-Est harum molestiae animi, natus in assumenda vel tempora aliquam, autem ipsam possimus eum consequuntur ipsa quidem. Autem atque perspiciatis incidunt iusto quas illo corrupti itaque, tempora odio ipsam placeat.
-Dolorem optio, libero impedit debitis quasi similique ea, perferendis quia autem ipsum itaque veniam consequatur a vel enim aut placeat. Doloribus ipsam numquam vitae totam quas, beatae animi et adipisci.
-Fuga, eum nisi quo itaque sequi eius ratione facilis praesentium debitis consequuntur exercitationem commodi voluptatibus quasi culpa maiores quaerat excepturi modi dolorem repudiandae in dignissimos accusantium tempore doloribus error. Ex?
-Earum maiores, saepe reprehenderit corrupti debitis dolores, consequuntur dolorem esse dicta officiis eveniet autem ut id veritatis? Impedit odit suscipit pariatur commodi nulla voluptatum et laudantium vitae harum? Quidem, quia.
-Quam, quia vitae quod perspiciatis aliquam delectus quas dolores deserunt expedita veritatis, praesentium rem cupiditate magnam nihil quidem, ducimus amet repellat voluptatum harum sed eius. Maiores soluta enim similique tenetur.
-Exercitationem tenetur eveniet doloribus corporis fugit, nostrum, illo iste facere blanditiis sapiente fuga nihil voluptate odit vero a! Tempora deserunt deleniti aut veniam ad iure accusamus suscipit magni enim nulla?
-Quod voluptatibus, provident sequi praesentium ex tempore possimus in ad impedit saepe, unde quidem fugiat veritatis necessitatibus dolorum, recusandae dignissimos natus soluta quae molestias repudiandae alias molestiae? Similique, ad voluptate!
-"
-let counter=0;
-for (let i= 0; i < string.length; index++) {
-    counter++; 
+//obyekt yaradin (adi bir sexsin adi olsun)
+// obyektin name,mass, height adli keyleri ve valuelleri olsun
+// Obyektin icinde BKI hesablayin funksiya yazin. k/h*h
+
+ //const person={
+// // name: "Xedice",
+// / mass:61,
+//  height:1.61,
+//    bki:function(){
+//     return this.mass/this.height**2;
+
+//    }
+// }
+// console.log(person.bki());
+// hesablari bir aarayde saxla
+// 50-300 arasi- 15|% diger hallarda 20%
+// tipsler hesablayib bir arraya yig
+// umumi odenecek  meblegi bir arraya yig
+// let bills= [22 ,295,440,37,105,1100,86,52 ]
+// tips=[]
+// totals =[]
+//  let bills=[22,295,440,37,105,1100,86,52]
+//  let tips=[22,295,105,37,52]
+//  let totals=[ 7,15,278,376]
+//  function hesab(a) {
+   
     
-}
-console.log(counter);
+//         for (let i = 0; i <= a.length; i++){
+//             let tips;
+//         if (a[i]>=50 && a[i]<=300) {
+//             let tip =a[i]*0.15;
+//             tips.push(tip);
+//             totals.push(tip+a[i]);
+
+
+//         }else{
+//           let tip= a[i]*0.2
+
+//         }
+
+//         }
+//         return[tips,totals]
+//     }
+//     console.log( hesab(bills));
+//     console.log( hesab(bills2));
+//     console.log( hesab(bills3));
+    
+//     for (let index = 0; index < array.length; index++) {
+//         const element = array[index];
+        
+//     }
+
+// const strArray = ["cat","mouse","panter","chicken"]
+//        strArray.shift()
+//        strArray.unshift("brid") 
+//        console.log(strArray)
+
+
+
+
+
+
+
+
+
+//Strinc metodlari
+//1 string verilir, stringin butun herflerin sayini tapin
+// let str= "hecer"
+// let cout =0;
+// for (let i = 0; index < str.length; i++) {
+//       count ++
+//       console.log(count);
+// }
+
+//2 let str ="salam"
+// let str0 =str. toUpperCase();
+// console.log(str0);
+
+// let array = ["Hecer", "Nermin", "Anar"];
+//  let max= str[2];
+//  console.log(max);
+//  for (let i = 2; 0< array.length; i++) {
+//        if (max>array[i].length){
+//               console.log(array[i].length);
+//               max=array[i]
+//               console.log(max);
+//        }
+//  }
+//  console.log(max);
+
+// let str = ("hecer");
+// const newarray =[]
+// for (let i = 0; saitler <string.length; i++) {
+//        const newarray = newarray[i];
+       
+//}
+// let str =("hecer");
+// let part = str.slice(2, 4);
+// console.log(str);
